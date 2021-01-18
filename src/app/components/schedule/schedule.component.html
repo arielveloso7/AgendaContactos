@@ -1,0 +1,26 @@
+<div class="row" id="schedule">
+
+    <div class="menu col-md-1 col-12">
+
+        <div class="row">
+
+            <div class="menu-item col-md-12 col-6" [routerLink]="['add-contacts']">
+
+                <img class="img-fluid" src="assets/image/form.png" alt="">
+
+            </div>
+
+            <div class="menu-item col-md-12 col-6" [routerLink]="['list-contacts']">
+
+                <img class="img-fluid" src="assets/image/card.png" alt="">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="content col-md-11 col-12 h-100">
+        <router-outlet></router-outlet>
+    </div>
+</div>
